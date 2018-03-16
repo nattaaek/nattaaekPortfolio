@@ -1,0 +1,21 @@
+
+body{
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0;
+}
+
+.horizontal-scroll-wrapper {
+    background-image: url('./assets/bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10000px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.my_avatar{
+    height: 300px;
+    position: absolute;
+    margin-top: 400px;
+}
