@@ -1,7 +1,6 @@
 
 body{
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow: hidden;
     margin: 0;
 }
 
@@ -12,6 +11,8 @@ body{
     width: 10000px;
     height: 800px;
     overflow: hidden;
+    position: fixed;
+    left: 0px;
 }
 
 .my_avatar{
